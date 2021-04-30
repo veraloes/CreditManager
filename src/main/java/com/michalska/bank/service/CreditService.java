@@ -24,7 +24,6 @@ public class CreditService {
     private final CreditRepository creditRepository;
     private final CustomerRepository customerRepository;
     private final ProductRepository productRepository;
-    public CreditService creditService;
 
     @Autowired
     public CreditService(@NonNull @Lazy CreditRepository creditRepository, CustomerRepository customerRepository, ProductRepository productRepository) {
@@ -57,7 +56,6 @@ public class CreditService {
     public List<Credit> getCredits() {
         return StreamSupport.stream(creditRepository.findAll().spliterator(), false).collect(Collectors.toList());
     }
-
 
     public Customer createCustomer(Customer customer) {
         return customerRepository.save(customer);

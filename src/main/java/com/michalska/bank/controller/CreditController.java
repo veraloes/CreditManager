@@ -48,7 +48,6 @@ public class CreditController {
     public String showForm(Model model) {
         Credit credit = new Credit();
         model.addAttribute("credit", credit);
-        Customer customer = new Customer();
         model.addAttribute("customer", new Customer());
         model.addAttribute("product", new Product());
         return "form";
