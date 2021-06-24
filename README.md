@@ -1,8 +1,8 @@
 # CreditManager
 
 Credit Manager is an app, which gives ability to manage Credits.
-###Specification
 
+### Specification
 - Java: 11
 - Database: H2
 - Build automation tool: Apache Maven
@@ -41,7 +41,7 @@ Thymeleaf form collects data needed to create Credit.
 
 ![create](https://user-images.githubusercontent.com/48919716/116630504-8d200e00-a953-11eb-844d-ffd02a1ffc77.png)
 
-###Additional feature
+### Additional feature
 Web form has validation to inserted values, every cell has to have lenght bigger than 0 and @NoNull, pesel number has to have 11 characters.
 
 ```python
