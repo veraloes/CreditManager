@@ -11,7 +11,7 @@ Credit Manager is an app, which gives ability to manage Credits.
 
 ### Data Model
 ![Persistence](https://user-images.githubusercontent.com/48919716/116630460-74aff380-a953-11eb-88c4-3c556ab29a08.png)
-###Storage Layer
+### Storage Layer
 There are three Repositories to handle the main entities: Credit, Customer and Product. These Repositories are based on Spring JPA framework and what is basic for Spring JPA, these Repositories contains minimal code. Some of initial data is hard coded inside Application Class.
 ### Structure
 ![structure](https://user-images.githubusercontent.com/48919716/116634593-ce68eb80-a95c-11eb-86aa-e6d4a4461d8c.png)
